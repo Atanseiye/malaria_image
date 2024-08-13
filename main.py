@@ -18,6 +18,7 @@ button = st.button('Predict')
 if button:
 
     # st.write(load_image)
+    st.write(load_image)
     pic = Image.open(load_image)
     pic = pic.resize((256, 256))
     pic_array = np.array(pic)
