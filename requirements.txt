@@ -4,6 +4,5 @@ scipy
 seaborn
 scikit-learn
 streamlit
-tensorflow
 io
 PIL
