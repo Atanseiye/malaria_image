@@ -17,6 +17,7 @@ button = st.button('Predict')
 
 if button:
 
+    # try:
     # st.write(load_image)
     st.write(load_image)
     pic = Image.open(load_image)
@@ -29,4 +30,5 @@ if button:
     prediction = class_names[np.argmax(model.predict(pic_arrays))]
 
     st.write(f'The image was predicted to be {prediction}')
- 
+     # except:
+     #    wt.write('No image was selected')
