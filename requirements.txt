@@ -1,18 +1,9 @@
-keras==2.14.0
-matplotlib==3.8.0
-matplotlib-inline==0.1.6
-opencv-contrib-python==4.10.0.84
-opencv-python==4.9.0.80
-opencv-python-headless==4.10.0.84
-pandas==2.1.1
-Pillow==10.0.1
-scikit-learn==1.5.1
-scipy==1.11.3
-seaborn==0.13.2
-sklearn==0.0.post9
-streamlit==1.28.2
-tensorboard==2.14.1
-tensorboard-data-server==0.7.1
-tensorflow @ file:///C:/Users/HP/Tensor/tensorflow-2.14.0-cp311-cp311-win_amd64.whl#sha256=0587ece626c4f7c4fcb2132525ea6c77ad2f2f5659a9b0f4451b1000be1b5e16
-tensorflow-estimator==2.14.0
-tensorflow-serving-api==2.5.0
+keras
+Pillow
+scipy
+seaborn
+sklearn
+streamlit
+tensorflow
+io
+PIL
