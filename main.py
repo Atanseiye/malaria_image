@@ -10,7 +10,7 @@ st.title('Malaria Detection Model In Image blood smear using Deep Learning ')
 
 class_names = ['Parasite', 'Uninfected']
 load_image = st.file_uploader('Your Image here')
-model = tf.saved_model.load('models/1')
+model = tf.keras.models.load_model('models/1')
 
 
 button = st.button('Predict')
