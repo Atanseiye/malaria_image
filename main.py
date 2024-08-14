@@ -17,8 +17,8 @@ load_image = st.file_uploader('Your Image here')
 try:
     model=tf.keras.models.load_model('models/1')
     st.write('Model load successfully')
-except:
-    st.write('Issues loading model')
+except as e:
+    st.write(f'Issues loading model {e}')
 
 
 button = st.button('Predict')
