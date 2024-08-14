@@ -17,7 +17,7 @@ load_image = st.file_uploader('Your Image here')
 try:
     model=tf.keras.models.load_model('models/1')
     st.write('Model load successfully')
-except as e:
+except Exception as e:
     st.write(f'Issues loading model {e}')
 
 
