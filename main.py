@@ -1,6 +1,5 @@
 import tensorflow as tf
 from tensorflow.keras import layers, models
-from keras.layers import TFSMLayer
 import matplotlib.pyplot as plt
 import streamlit as st
 from PIL import Image
@@ -11,8 +10,7 @@ st.title('Malaria Detection Model In Image blood smear using Deep Learning ')
 
 class_names = ['Parasite', 'Uninfected']
 load_image = st.file_uploader('Your Image here')
-# model = tf.keras.models.load_model('models/1')
-model = TFSMLayer('model/1', call_endpoint='serving_default')
+model = tf.keras.models.load_model('models/1')
 
 
 button = st.button('Predict')
